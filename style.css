@@ -5,4 +5,69 @@ html {
   *, *::after, ::before{
     box-sizing: border-box;
 }
+body{
+    background-color: red;
+}
+.header{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+.snes-logo{
+    height: 30rem;
+}
 
+.games{
+    padding-top: 10rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 70vw;
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+.row-item  {
+
+}
+.game{
+    height:30rem;
+    transition: .3s;
+}
+.box-art{
+    height: 25rem;
+    transition: .3s;
+}
+.game:hover{
+    transform: scale(2) translate(1rem, -.5rem);
+    z-index: 10;
+}
+
+.test{
+    height: 25rem;
+    transition: .3s;
+}
+
+/* .test:hover{
+    transform: scale(2) translate(1rem, -.5rem);
+    z-index: 10;
+} */
+
+#viewer{
+
+}
+
+video{
+    height: 50vh;
+}
